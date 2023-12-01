@@ -6,7 +6,7 @@ const middlewares = jsonServer.defaults();
 server.use(middlewares);
 server.use(jsonServer.bodyParser);
 
-server.patch("/letters/updateByUserId/:userId", (req, res) => {
+server.patch("/letters/profile/:userId", (req, res) => {
   const userId = req.params.userId;
   const body = req.body;
   const db = router.db;
