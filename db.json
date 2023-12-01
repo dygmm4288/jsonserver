@@ -1,0 +1,12 @@
+{
+  "letters": [
+    {
+      "id": 1,
+      "writedTo": "카리나",
+      "nickname": "카리나팬",
+      "content": "안녕하세요 저는 카리나 팬입니다.",
+      "createdAt": 1701310238781,
+      "avatar": "test"
+    }
+  ]
+}
